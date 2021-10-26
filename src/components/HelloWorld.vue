@@ -5,7 +5,7 @@
     </div>
     <div class="card-body">
       <div class="hello">
-        <h1>Welcome to Vue!</h1>
+        Welcome to Vue!
       </div>
     </div>
   </div>
@@ -14,9 +14,6 @@
 <script>
 export default {
   name: "HelloWorld",
-  props: {
-    msg: String,
-  },
 };
 </script>
 
