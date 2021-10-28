@@ -24,6 +24,12 @@
         >표현식 바인딩</router-link
       ><router-link to="/menu02/exam02directives" class="nav-link text-warning"
         >디렉티브 바인딩</router-link
+      ><router-link to="/menu02/exam03attrbinding" class="nav-link text-warning"
+        >속성 바인딩</router-link
+      ><router-link to="/menu02/exam04formbinding" class="nav-link text-warning"
+        >양방향 바인딩</router-link
+      ><router-link to="/menu02/exam05forrepeatbinding" class="nav-link text-warning"
+        >반복 바인딩</router-link
       >
     </li>
   </ul>
