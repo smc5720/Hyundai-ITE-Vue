@@ -147,8 +147,8 @@ export default {
   // 데이터가 변경되면 자동 계산되는 속성
   computed: {
     disabledRegButton() {
-      let result = this.product.name !== "" && this.product.company != "";
-      return !result;
+      let result = this.product.name === "" || this.product.company === "";
+      return result;
     },
   },
 };
