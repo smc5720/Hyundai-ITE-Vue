@@ -62,5 +62,19 @@
         >라이프사이클 훅</router-link
       >
     </li>
+    <li class="nav-item mt-2">
+      <h6 class="text-white">Menu06: Vuex State Management</h6>
+      <router-link to="/menu06/exam01rootstate" class="nav-link text-warning"
+        >루트 상태 읽기 및 변경</router-link
+      ><router-link to="/menu06/exam02counterstate" class="nav-link text-warning"
+        >하위 상태 읽기 및 변경</router-link
+      >
+    </li>
+    <li class="nav-item mt-2">
+      <h6 class="text-white">Menu07: Axios AJAX</h6>
+      <router-link to="/menu07/exam01asynccontrol" class="nav-link text-warning"
+        >비동기 작업 도중에 보여줄 스피너</router-link
+      ><router-link to="/menu07/auth/jwtauth" class="nav-link text-warning">JWT 인증</router-link>
+    </li>
   </ul>
 </template>
